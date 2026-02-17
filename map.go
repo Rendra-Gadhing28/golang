@@ -20,6 +20,9 @@ func mapEx(){
 
 	m["hobi"] = "fotografi dan berusaha lebih baik lagi"
 	fmt.Println("hobi : ", m["hobi"])
+
+	m["motiv"] = "Kenangan memang indah, tapi semua memiliki tujuan masing-masing"
+	fmt.Println("motivasi : ", m["motiv"])
 }
 
 func Nilai(){
