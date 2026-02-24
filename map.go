@@ -21,7 +21,7 @@ func mapEx(){
 	m["hobi"] = "fotografi dan berusaha lebih baik lagi"
 	fmt.Println("hobi : ", m["hobi"])
 
-	m["motiv"] = "Kenangan memang indah, tapi semua memiliki tujuan masing-masing"
+	m["motiv"]= "Kenangan memang indah, tapi semua memiliki tujuan masing-masing"
 	fmt.Println("motivasi : ", m["motiv"])
 }
 
@@ -30,6 +30,9 @@ func Nilai(){
 	siswa["rendra"] = 90
 	siswa["arka"] = 95
 	siswa["ungaran"] = 100
+
+	v,ok := siswa["rendra"]
+	fmt.Println(v, ok)
 
 	fmt.Println(siswa)
 }

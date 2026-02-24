@@ -4,8 +4,9 @@ import "fmt"
 func main(){
 	names := [...]string{
 		"rendra","gadhing","pamungkas","arka","mudya","ezar",}
-	slice:= names[1:4]//diambil dari index ke 3 dan diakhiri sebelum nilai high
-
+		
+	slice:= names[0:5]//diambil dari index ke 1 dan diakhiri sebelum nilai high(4)
+		fmt.Println(names)
 	fmt.Println(len(slice))
 
 	fmt.Println(cap(slice))
@@ -17,7 +18,7 @@ func main(){
 	s:= make([]int, 5,10,)
 	fmt.Println(s)
 	fmt.Println(len(s))
-	fmt.Println(cap(s))
+	fmt.Println(cap(s), "PPPPPPP,")
 
 
 	s = append(s,10,20,30,40,50,60,70,)

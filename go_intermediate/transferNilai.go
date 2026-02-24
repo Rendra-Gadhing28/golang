@@ -32,7 +32,7 @@ func (s *Siswa) RataRata() float32 {
 
 func main(){
 	siswa1 := Siswa{
-		nama: "Cikal",
+		nama: "Cikal Prameswari Putri",
 		nilai: []int{90,85,90,80,85,100},
 	}
 	upgradeNilai(&siswa1)
